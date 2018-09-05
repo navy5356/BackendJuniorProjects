@@ -1,0 +1,38 @@
+<html>
+<center>
+<h3> List of all active accounts</h3>
+</center>
+<caption> (Click to see account details)</caption>
+<br>
+<ul>
+    {% for acc in all_accounts %}
+    <li> <a href="/account/{{ acc.id}}/"> {{ acc.name }} </a></li>
+    {% endfor %}
+</ul>
+
+
+<table cellspacing="50" >
+    <tr>
+        <td>
+<a href="/account/taxman/"><button> <h2>Tax Deduction </font></h2></button></a>
+
+        </td>
+
+
+        <td>
+<a href="/account/createacc/"> <button> <h2> Create a new account </h2></button></a>
+        </td>
+
+        <td>
+            <a href="/account/deposit"> <button> <h2> Deposit Money </button></a> </h2>
+        </td>
+
+        <td>
+            <a href="/account/withdraw"> <button> <h2> Withdraw Money </button></a> </h2>
+        </td>
+
+    </tr>
+
+</table>
+
+</html>
