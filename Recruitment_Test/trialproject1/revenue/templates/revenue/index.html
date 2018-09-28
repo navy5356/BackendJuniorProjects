@@ -1,0 +1,14 @@
+{% if all_account %}
+    <h1>Here are all the Accounts</h1>
+    <ul>
+        {% for account in all_account %}
+        <li>{{  account.Name }} - {{ account.Amount }}</li>
+        {% endfor %}
+    </ul>
+    <form action = "/collect/" method = "GET">
+    <button class="CollectRevenue">COLLECT REVENUE</button>
+    </form>
+{% else %}
+    <h1>You do not have any Album</h1>
+
+{% endif %}

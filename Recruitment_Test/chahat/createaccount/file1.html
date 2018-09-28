@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+    <h1>Accounts</h1>
+    <ul>
+        {% for Account in Allaccounts%}
+        <li>{{ Account.name}}{{ Account.account_balance }}</li>
+{% endfor %}
+    </ul>
