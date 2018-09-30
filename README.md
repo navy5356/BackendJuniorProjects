@@ -5,7 +5,7 @@
 
 
 [Project 1](https://github.com/Polaris000/BackendJuniorProjects/tree/master/Project1) 
-> Status: Ongoing  (1 / 5)       
+> Status: Ongoing  (2 / 5)       
 
 
 [Project 2](https://github.com/Polaris000/BackendJuniorProjects/tree/master/Project2) 
